@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route,Link,Switch} from 'react-router-dom';
 
-import Login from './login';
-import Other from './page';
+import Login from './page/login';
+import Other from './page/home';
 
 export default class App extends Component {
   render() {
